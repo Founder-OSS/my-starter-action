@@ -1,0 +1,17 @@
+# This is the "menu" that defines your tool
+name: 'My Starter Action'
+description: 'A simple tool that greets a user'
+
+inputs:
+  who-to-greet:
+    description: 'The name of the person to greet'
+    required: true
+    default: 'World'
+
+outputs:
+  greeting-time:
+    description: 'The time the greeting occurred'
+
+runs:
+  using: 'node16'
+  main: 'index.js'fffffffffffffffffffffffff
